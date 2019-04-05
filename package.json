@@ -1,0 +1,25 @@
+{
+  "name": "medical-reserves",
+  "version": "1.0.0",
+  "description": "A simple app to reserve medical visits",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamecksilva/medical-reserves.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Docker",
+    "MongoDB",
+    "React"
+  ],
+  "author": "Lameck Sandro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lamecksilva/medical-reserves/issues"
+  },
+  "homepage": "https://github.com/lamecksilva/medical-reserves#readme"
+}

@@ -1,11 +1,10 @@
-const express = require("express");
-
+const express = require('express');
 const app = express();
 
-app.get("/", (req, res) => {
-  res.send("First App");
+app.get('/', (req, res) => {
+  res.send('Hello from api');
 });
 
-app.listen(3000, () => {
-  console.log("Rodando na porta 3000");
-});
+const PORT = process.env.PORT || 9000;
+
+app.listen(PORT, () => console.log(`Server Running on PORT: ${PORT}`));
